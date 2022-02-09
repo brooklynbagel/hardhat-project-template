@@ -6,6 +6,10 @@ import "hardhat-gas-reporter";
 
 import type { HardhatUserConfig } from "hardhat/types";
 
+import dotenv from "dotenv";
+
+dotenv.config();
+
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
